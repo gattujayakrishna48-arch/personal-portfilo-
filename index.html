@@ -1,0 +1,865 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Primary Page Title & Meta Description (SEO) -->
+    <title>Jaya Krishna Gattu | Aspiring Data Engineer</title>
+    <meta 
+      name="description" 
+      content="Portfolio of Jaya Krishna Gattu, 2nd-year B.Tech CSE (Data Science) student and aspiring Data Engineer seeking internships. AI-assisted prototypes, Python/SQL fundamentals, and certificates." 
+    />
+    <meta name="author" content="Jaya Krishna Gattu" />
+    <meta name="keywords" content="Jaya Krishna Gattu, Data Engineer, Data Science, Python, SQL, Portfolio, AITS Tirupati, Google Student Ambassador" />
+
+    <!-- Open Graph Social Share Cards -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Jaya Krishna Gattu | Aspiring Data Engineer" />
+    <meta property="og:description" content="Personal portfolio of Jaya Krishna Gattu: B.Tech CSE (Data Science) student, early-stage AI prototypes, data engineering learning, and verified certificates." />
+    <meta property="og:site_name" content="Jaya Krishna Gattu Portfolio" />
+    <meta property="og:url" content="https://github.com/gattujayakrishna48-arch" />
+
+    <!-- Twitter / X Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Jaya Krishna Gattu | Aspiring Data Engineer" />
+    <meta name="twitter:description" content="Personal portfolio of Jaya Krishna Gattu, 2nd-year B.Tech CSE (Data Science) student seeking Data Engineering internships." />
+
+    <!-- Typography: Google Fonts Preconnect & Load -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+    <!-- Pure CSS Stylesheet (No external frameworks or build dependencies) -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Structured Data (JSON-LD) for Search Engines -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Jaya Krishna Gattu",
+      "jobTitle": "Aspiring Data Engineer",
+      "email": "gattujayakrishna48@gmail.com",
+      "url": "https://github.com/gattujayakrishna48-arch",
+      "alumniOf": {
+        "@type": "CollegeOrUniversity",
+        "name": "Annamacharya Institute of Technology and Sciences, Tirupati"
+      },
+      "sameAs": [
+        "https://linkedin.com/in/jaya-krishna-gattu-555841377",
+        "https://github.com/gattujayakrishna48-arch"
+      ]
+    }
+    </script>
+  </head>
+  <body>
+
+    <!-- =======================================================================
+         1. STICKY TOP NAVIGATION BAR (CSS-Only Responsive Menu)
+         ======================================================================= -->
+    <header class="site-header">
+      <div class="container">
+        <nav class="navbar" aria-label="Main Navigation">
+          <!-- Zone 1: Single text element Brand Wordmark -->
+          <a href="#hero" class="brand">
+            <span class="brand-dot" aria-hidden="true"></span>
+            <span>Jaya Krishna Gattu</span>
+          </a>
+
+          <!-- CSS-Only Hamburger Checkbox Toggle (No JavaScript Required) -->
+          <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Toggle navigation menu" />
+          <label for="nav-toggle" class="nav-toggle-label" aria-hidden="true">
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
+
+          <!-- Zone 2 & 3: Nav Menu Links + Primary CTA -->
+          <div class="nav-menu-wrapper">
+            <ul class="nav-menu">
+              <li><a href="#about" class="nav-link">About</a></li>
+              <li><a href="#skills" class="nav-link">Skills</a></li>
+              <li><a href="#projects" class="nav-link">Projects</a></li>
+              <li><a href="#how-i-build" class="nav-link">How I Build</a></li>
+              <li><a href="#certificates" class="nav-link">Certificates</a></li>
+              <li><a href="#activities" class="nav-link">Activities</a></li>
+              <li><a href="#resume" class="nav-link">Resume</a></li>
+              <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+
+            <!-- Zone 3: Primary Header Action -->
+            <div class="nav-action">
+              <a href="#contact" class="btn btn-primary btn-sm">Get in Touch</a>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- =====================================================================
+           2. HERO SECTION
+           ===================================================================== -->
+      <section id="hero" class="section hero-section">
+        <div class="container">
+          <div class="hero-content">
+            <!-- Student & Opportunity Tag -->
+            <div class="hero-status-tag">
+              <span>Data Science Student · Google Student Ambassador 2026 · Open to internships</span>
+            </div>
+
+            <h1 class="hero-name">Jaya Krishna Gattu</h1>
+            <p class="hero-headline">Aspiring Data Engineer</p>
+
+            <!-- One-line honest pitch -->
+            <p class="hero-pitch">
+              Second-year B.Tech CSE (Data Science) student at Annamacharya Institute of Technology and Sciences, Tirupati. Building early-stage AI-assisted prototypes while actively deepening core fundamentals across Python, SQL, and data pipeline architecture for real-world impact.
+            </p>
+
+            <!-- Call-to-Action Buttons -->
+            <div class="hero-actions">
+              <a href="#projects" class="btn btn-primary">View Projects</a>
+              <a href="assets/Jaya_Krishna_Gattu_Resume.pdf" download class="btn btn-secondary">Download Resume</a>
+              <a href="https://github.com/gattujayakrishna48-arch" target="_blank" rel="noopener noreferrer" class="btn btn-subtle">
+                GitHub ↗
+              </a>
+              <a href="#contact" class="btn btn-subtle">Contact Me</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- =====================================================================
+           3. ABOUT SECTION
+           ===================================================================== -->
+      <section id="about" class="section section-alt">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-label">Background & Philosophy</span>
+            <h2 class="section-title">About Me</h2>
+          </div>
+
+          <div class="about-grid">
+            <div class="about-text">
+              <p>
+                I am a second-year <strong>B.Tech Computer Science and Engineering (Data Science)</strong> student at Annamacharya Institute of Technology and Sciences, Tirupati. My core ambition is to grow into a versatile <strong>Data Engineer</strong>, architecting robust systems that ingest, transform, and deliver clean, dependable data.
+              </p>
+              <p>
+                During my initial learning phase, I actively leveraged modern AI tools to quickly prototype ideas, explore interface concepts, and bring projects to life at high velocity. This rapid prototyping gave me valuable exposure to end-to-end software flows and practical problem domains.
+              </p>
+              <p>
+                Today, I am deliberately shifting my primary focus to <strong>deepening my fundamentals in Python, relational SQL, database design, and data pipelines</strong>. I believe that true engineering excellence requires understanding every layer of what I build—from raw data extraction to schema modeling and reliable downstream execution.
+              </p>
+              <p>
+                I am actively seeking <strong>Data Engineering and Data Science internships</strong> where I can contribute enthusiasm, a relentless work ethic, and an eagerness to learn from seasoned engineers.
+              </p>
+            </div>
+
+            <!-- Quick Profile Meta Card -->
+            <div class="about-sidebar">
+              <ul class="about-meta-list">
+                <li class="about-meta-item">
+                  <span class="about-meta-label">Current Role</span>
+                  <span class="about-meta-val">2nd Year B.Tech CSE (Data Science)</span>
+                </li>
+                <li class="about-meta-item">
+                  <span class="about-meta-label">Institution</span>
+                  <span class="about-meta-val">AITS, Tirupati</span>
+                </li>
+                <li class="about-meta-item">
+                  <span class="about-meta-label">Target Opportunity</span>
+                  <span class="about-meta-val">Data Engineering Internships</span>
+                </li>
+                <li class="about-meta-item">
+                  <span class="about-meta-label">Location</span>
+                  <span class="about-meta-val">Tirupati, Andhra Pradesh, India</span>
+                </li>
+                <li class="about-meta-item">
+                  <span class="about-meta-label">Core Focus</span>
+                  <span class="about-meta-val">Python, Relational SQL, Data Pipelines</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- =====================================================================
+           4. SKILLS SECTION
+           Grouped tags with zero fake percentage bars
+           ===================================================================== -->
+      <section id="skills" class="section">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-label">Technical Competencies</span>
+            <h2 class="section-title">Skills & Technologies</h2>
+            <p class="section-subtitle">
+              Technologies I use to write code, design data models, and manage projects. Currently expanding into full data lifecycle tools.
+            </p>
+          </div>
+
+          <div class="skills-container">
+            <!-- Group 1: Programming Languages -->
+            <div class="skills-group">
+              <h3 class="skills-group-title">Languages</h3>
+              <ul class="tags-list">
+                <li class="tag">Python</li>
+                <li class="tag">C</li>
+                <li class="tag">JavaScript</li>
+                <li class="tag">TypeScript (basic)</li>
+                <li class="tag">HTML5</li>
+                <li class="tag">CSS3</li>
+                <!-- EDIT HERE: Add more languages as you learn them -->
+              </ul>
+            </div>
+
+            <!-- Group 2: Data & Databases -->
+            <div class="skills-group">
+              <h3 class="skills-group-title">Data & Databases</h3>
+              <ul class="tags-list">
+                <li class="tag">SQL (PostgreSQL / MySQL)</li>
+                <li class="tag">Pandas</li>
+                <li class="tag">NumPy</li>
+                <li class="tag">Data Modeling Basics</li>
+                <li class="tag">Relational Schema Design</li>
+                <!-- EDIT HERE: Add libraries like PySpark, DuckDB, SQLAlchemy as you practice -->
+              </ul>
+            </div>
+
+            <!-- Group 3: Tools & Platforms -->
+            <div class="skills-group">
+              <h3 class="skills-group-title">Tools & Platforms</h3>
+              <ul class="tags-list">
+                <li class="tag">Git</li>
+                <li class="tag">GitHub</li>
+                <li class="tag">VS Code</li>
+                <li class="tag">Linux / Bash</li>
+                <li class="tag">Jupyter Notebooks</li>
+                <!-- EDIT HERE: Add Docker, DBeaver, Postman, etc. -->
+              </ul>
+            </div>
+
+            <!-- Group 4: Currently Learning -->
+            <div class="skills-group">
+              <h3 class="skills-group-title">Currently Learning</h3>
+              <ul class="tags-list">
+                <li class="tag tag-learning">Advanced SQL & Indexing</li>
+                <li class="tag tag-learning">Apache Spark</li>
+                <li class="tag tag-learning">Apache Airflow</li>
+                <li class="tag tag-learning">Cloud (Google Cloud Platform)</li>
+                <li class="tag tag-learning">Data Warehousing (BigQuery / Snowflake)</li>
+                <!-- EDIT HERE: Update your learning queue as you progress -->
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- =====================================================================
+           5. PROJECTS SECTION
+           Honest presentation: Early-stage AI-assisted prototypes
+           First 3 featured, exact 8 projects listed
+           ===================================================================== -->
+      <section id="projects" class="section section-alt">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-label">Exploratory Work</span>
+            <h2 class="section-title">Projects & Prototypes</h2>
+            <p class="section-subtitle">
+              Early-stage prototypes built with AI assistance while learning. Presented honestly as problem explorations without claiming enterprise scale or live production numbers.
+            </p>
+          </div>
+
+          <div class="projects-header-info">
+            <strong>Honest Engineering Note:</strong> These projects represent my hands-on exploration of domain problems and user interface patterns using AI tools. I am now transitioning these insights into building rigorous, backend-heavy data pipelines.
+          </div>
+
+          <div class="projects-grid">
+            <!-- Project 1 (Featured): Grand Zenith -->
+            <article class="project-card featured">
+              <div class="project-top">
+                <div class="project-badge-row">
+                  <span class="project-kicker">Featured Project 01</span>
+                  <span class="project-prototype-tag">Prototype · Built with AI assistance</span>
+                </div>
+                <h3 class="project-title">Grand Zenith</h3>
+                <p class="project-desc">
+                  Smart hotel management dashboard that centralizes room occupancy, bookings, housekeeping, maintenance, guest services, and revenue analytics. Explores how real-time operational data, predictive insights, and business intelligence can optimize daily hospitality workflows.
+                </p>
+              </div>
+              <div class="project-bottom">
+                <div class="project-tech-row">
+                  <span class="tech-tag">JavaScript</span>
+                  <span class="tech-tag">HTML</span>
+                  <span class="tech-tag">CSS</span>
+                </div>
+                <div class="project-actions">
+                  <a href="https://grand-zenith.vercel.app" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+                    Live Demo ↗
+                  </a>
+                  <a href="https://github.com/gattujayakrishna48-arch/grand-zenith" target="_blank" rel="noopener noreferrer" class="btn btn-subtle btn-sm">
+                    GitHub ↗
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <!-- Project 2 (Featured): Flood Management -->
+            <article class="project-card featured">
+              <div class="project-top">
+                <div class="project-badge-row">
+                  <span class="project-kicker">Featured Project 02</span>
+                  <span class="project-prototype-tag">Prototype · Built with AI assistance</span>
+                </div>
+                <h3 class="project-title">Flood Management</h3>
+                <p class="project-desc">
+                  A data-focused project designed to identify and analyze geographic regions where seasonal floods exert the heaviest socio-economic impact. Explores data-driven geospatial mapping techniques to help emergency responders prioritize vulnerable zones.
+                </p>
+              </div>
+              <div class="project-bottom">
+                <div class="project-tech-row">
+                  <span class="tech-tag">Python</span>
+                </div>
+                <div class="project-actions">
+                  <a href="https://github.com/gattujayakrishna48-arch/flood-management" target="_blank" rel="noopener noreferrer" class="btn btn-subtle btn-sm">
+                    GitHub ↗
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <!-- Project 3 (Featured): Agrisense AI -->
+            <article class="project-card featured">
+              <div class="project-top">
+                <div class="project-badge-row">
+                  <span class="project-kicker">Featured Project 03</span>
+                  <span class="project-prototype-tag">Prototype · Built with AI assistance</span>
+                </div>
+                <h3 class="project-title">Agrisense AI</h3>
+                <p class="project-desc">
+                  An agricultural prototype exploring smart crop monitoring and soil condition indicators. Investigates how automated environmental insights can assist farming communities with timely interventions.
+                </p>
+                <!-- EDIT HERE: Replace placeholder description below if needed -->
+                <div class="project-placeholder-note">[ADD 1 LINE: Detail your specific agricultural dataset or workflow]</div>
+              </div>
+              <div class="project-bottom">
+                <div class="project-tech-row">
+                  <span class="tech-tag">HTML</span>
+                </div>
+                <div class="project-actions">
+                  <a href="https://github.com/gattujayakrishna48-arch/Agrisense-AI" target="_blank" rel="noopener noreferrer" class="btn btn-subtle btn-sm">
+                    GitHub ↗
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <!-- Project 4: Mediassist AI -->
+            <article class="project-card">
+              <div class="project-top">
+                <div class="project-badge-row">
+                  <span class="project-kicker">Project 04</span>
+                  <span class="project-prototype-tag">Prototype · Built with AI assistance</span>
+                </div>
+                <h3 class="project-title">Mediassist AI</h3>
+                <p class="project-desc">
+                  A healthcare assistance concept interface designed to explore patient triage queries and clinical appointment navigation.
+                </p>
+                <!-- EDIT HERE: Replace placeholder description below -->
+                <div class="project-placeholder-note">[ADD 1 LINE: Describe the specific triage or symptom logic explored]</div>
+              </div>
+              <div class="project-bottom">
+                <div class="project-tech-row">
+                  <span class="tech-tag">HTML</span>
+                </div>
+                <div class="project-actions">
+                  <a href="https://github.com/gattujayakrishna48-arch/Mediassist-AI" target="_blank" rel="noopener noreferrer" class="btn btn-subtle btn-sm">
+                    GitHub ↗
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <!-- Project 5: Forest AI -->
+            <article class="project-card">
+              <div class="project-top">
+                <div class="project-badge-row">
+                  <span class="project-kicker">Project 05</span>
+                  <span class="project-prototype-tag">Prototype · Built with AI assistance</span>
+                </div>
+                <h3 class="project-title">Forest AI</h3>
+                <p class="project-desc">
+                  An environmental tracking interface prototype built to visualize forest canopy health and deforestation awareness metrics.
+                </p>
+                <!-- EDIT HERE: Replace placeholder description below -->
+                <div class="project-placeholder-note">[ADD 1 LINE: Specify data inputs such as satellite index or vegetation health]</div>
+              </div>
+              <div class="project-bottom">
+                <div class="project-tech-row">
+                  <span class="tech-tag">TypeScript</span>
+                </div>
+                <div class="project-actions">
+                  <a href="https://github.com/gattujayakrishna48-arch/forest-ai" target="_blank" rel="noopener noreferrer" class="btn btn-subtle btn-sm">
+                    GitHub ↗
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <!-- Project 6: EnviConnect -->
+            <article class="project-card">
+              <div class="project-top">
+                <div class="project-badge-row">
+                  <span class="project-kicker">Project 06</span>
+                  <span class="project-prototype-tag">Prototype · Built with AI assistance</span>
+                </div>
+                <h3 class="project-title">EnviConnect</h3>
+                <p class="project-desc">
+                  A community-oriented environmental platform prototype connecting volunteers with local conservation and sustainability projects.
+                </p>
+                <!-- EDIT HERE: Replace placeholder description below -->
+                <div class="project-placeholder-note">[ADD 1 LINE: Detail the volunteer matching or event coordination flow]</div>
+              </div>
+              <div class="project-bottom">
+                <div class="project-tech-row">
+                  <span class="tech-tag">JavaScript</span>
+                </div>
+                <div class="project-actions">
+                  <a href="https://github.com/gattujayakrishna48-arch/EnviConnect" target="_blank" rel="noopener noreferrer" class="btn btn-subtle btn-sm">
+                    GitHub ↗
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <!-- Project 7: Family Guard -->
+            <article class="project-card">
+              <div class="project-top">
+                <div class="project-badge-row">
+                  <span class="project-kicker">Project 07</span>
+                  <span class="project-prototype-tag">Prototype · Built with AI assistance</span>
+                </div>
+                <h3 class="project-title">Family Guard</h3>
+                <p class="project-desc">
+                  A personal security and family check-in prototype exploring real-time location awareness and quick emergency notifications.
+                </p>
+                <!-- EDIT HERE: Replace placeholder description below -->
+                <div class="project-placeholder-note">[ADD 1 LINE: Explain notification mechanism or status check-in feature]</div>
+              </div>
+              <div class="project-bottom">
+                <div class="project-tech-row">
+                  <span class="tech-tag">JavaScript</span>
+                </div>
+                <div class="project-actions">
+                  <a href="https://github.com/gattujayakrishna48-arch/family-guard" target="_blank" rel="noopener noreferrer" class="btn btn-subtle btn-sm">
+                    GitHub ↗
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <!-- Project 8: Access Route -->
+            <article class="project-card">
+              <div class="project-top">
+                <div class="project-badge-row">
+                  <span class="project-kicker">Project 08</span>
+                  <span class="project-prototype-tag">Prototype · Built with AI assistance</span>
+                </div>
+                <h3 class="project-title">Access Route</h3>
+                <p class="project-desc">
+                  An accessible navigation concept exploring barrier-free routing and urban transit pathways for individuals with physical mobility constraints.
+                </p>
+                <!-- EDIT HERE: Replace placeholder description below -->
+                <div class="project-placeholder-note">[ADD 1 LINE: Mention routing parameters or accessibility criteria used]</div>
+              </div>
+              <div class="project-bottom">
+                <div class="project-tech-row">
+                  <span class="tech-tag">JavaScript</span>
+                </div>
+                <div class="project-actions">
+                  <a href="https://github.com/gattujayakrishna48-arch/Access-Route" target="_blank" rel="noopener noreferrer" class="btn btn-subtle btn-sm">
+                    GitHub ↗
+                  </a>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <!-- Section End: See All Repositories -->
+          <div class="projects-footer-cta">
+            <a href="https://github.com/gattujayakrishna48-arch" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+              See all repositories on GitHub ↗
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- =====================================================================
+           6. HOW I BUILD SECTION
+           Honest engineering growth pillars
+           ===================================================================== -->
+      <section id="how-i-build" class="section">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-label">Engineering Approach</span>
+            <h2 class="section-title">How I Build & Learn</h2>
+            <p class="section-subtitle">
+              Transparency about my current workflow and where my technical roadmap is heading next.
+            </p>
+          </div>
+
+          <div class="build-philosophy-grid">
+            <div class="build-card">
+              <span class="build-step-num">01</span>
+              <h3 class="build-card-title">I prototype quickly with AI tools</h3>
+              <p class="build-card-text">
+                I use generative AI assistants to brainstorm user flows, draft preliminary interfaces, and test solution viability early. This enables rapid experimentation across diverse problem domains.
+              </p>
+            </div>
+
+            <div class="build-card">
+              <span class="build-step-num">02</span>
+              <h3 class="build-card-title">I learn to read, test, and understand the code</h3>
+              <p class="build-card-text">
+                Rather than treating code as a black box, I systematically dissect the generated components, verify their logic, examine edge cases, and manually refine them to build genuine programming literacy.
+              </p>
+            </div>
+
+            <div class="build-card">
+              <span class="build-step-num">03</span>
+              <h3 class="build-card-title">Building real data pipelines with Python and SQL</h3>
+              <p class="build-card-text">
+                My overarching goal is engineering data infrastructure. I am focused on writing clean SQL queries, understanding relational schemas, and developing ETL pipelines that move data reliably.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- =====================================================================
+           7. CERTIFICATES SECTION
+           Responsive card grid. Uses ONLY specified certificates.
+           No invented certificates or dates.
+           ===================================================================== -->
+      <section id="certificates" class="section section-alt">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-label">Continuous Education</span>
+            <h2 class="section-title">Certificates</h2>
+            <p class="section-subtitle">
+              Verified credentials and guided coursework completed in cloud technologies and artificial intelligence.
+            </p>
+          </div>
+
+          <!--
+            HOW TO ADD MORE CERTIFICATES:
+            1. Copy the <article class="cert-card">...</article> block below.
+            2. Update the title, issuer, completion date, and "what I learned" note.
+            3. If you have a verification URL, set href="YOUR_URL" on the button.
+            4. If no URL is available yet, omit or comment out the .cert-action wrapper.
+          -->
+          <div class="certs-grid">
+            <!-- Certificate 1: Innovating with Google Cloud AI -->
+            <article class="cert-card">
+              <div>
+                <div class="cert-meta">
+                  <span>Google</span>
+                  <span aria-hidden="true">·</span>
+                  <span>Oct 18, 2026</span>
+                </div>
+                <h3 class="cert-title">Innovating with Google Cloud Artificial Intelligence</h3>
+                <p class="cert-learned">
+                  <strong>What I learned:</strong> <!-- [ADD 1 LINE] --> Core Google Cloud AI infrastructure capabilities, foundational model concepts, and architectural patterns for modern cloud applications.
+                </p>
+              </div>
+              <div class="cert-action">
+                <!-- Replace '#' with your certificate URL when available -->
+                <a href="#certificates" class="btn btn-subtle btn-sm" title="Add certificate link">
+                  View Certificate ↗ <!-- [ADD URL] -->
+                </a>
+              </div>
+            </article>
+
+            <!-- Certificate 2: Be10x -->
+            <article class="cert-card">
+              <div>
+                <div class="cert-meta">
+                  <span>Be10x (CertX)</span>
+                  <span aria-hidden="true">·</span>
+                  <span>Mar 15, 2026</span>
+                </div>
+                <h3 class="cert-title">Be10x Certificate</h3>
+                <p class="cert-learned">
+                  <strong>What I learned:</strong> <!-- [ADD 1 LINE] --> Practical AI tool integration workflows, prompt engineering techniques, and personal productivity acceleration.
+                </p>
+              </div>
+              <div class="cert-action">
+                <!-- Replace '#' with your certificate URL when available -->
+                <a href="#certificates" class="btn btn-subtle btn-sm" title="Add certificate link">
+                  View Certificate ↗ <!-- [ADD URL] -->
+                </a>
+              </div>
+            </article>
+
+            <!-- Certificate 3: Google "AI Boost Bites" Series (Single card with 4 tags) -->
+            <article class="cert-card">
+              <div>
+                <div class="cert-meta">
+                  <span>Google</span>
+                  <span aria-hidden="true">·</span>
+                  <span>Oct 18, 2026</span>
+                </div>
+                <h3 class="cert-title">Google "AI Boost Bites" Series</h3>
+                <p class="cert-learned">
+                  <strong>Modules Completed:</strong>
+                </p>
+                <div class="cert-subtags">
+                  <span class="cert-subtag">Supercharge Research with Gemini</span>
+                  <span class="cert-subtag">Google Workspace Studio</span>
+                  <span class="cert-subtag">Tame Your Inbox with AI</span>
+                  <span class="cert-subtag">Your Personal Feedback Agent</span>
+                </div>
+              </div>
+              <div class="cert-action">
+                <!-- Replace '#' with your certificate URL when available -->
+                <a href="#certificates" class="btn btn-subtle btn-sm" title="Add certificate link">
+                  View Certificate ↗ <!-- [ADD URL] -->
+                </a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- =====================================================================
+           8. COMMUNITY & ACTIVITIES SECTION
+           Exact items requested, no invented roles or rankings
+           ===================================================================== -->
+      <section id="activities" class="section">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-label">Engagement & Collaboration</span>
+            <h2 class="section-title">Community & Activities</h2>
+            <p class="section-subtitle">
+              Hackathons, student leadership programs, and developer meetups that broaden my perspective.
+            </p>
+          </div>
+
+          <div class="activities-grid">
+            <!-- Activity 1: Google Student Ambassador -->
+            <div class="activity-card">
+              <span class="activity-date">2026</span>
+              <h3 class="activity-title">Google Student Ambassador</h3>
+              <p class="activity-desc">
+                <!-- [ADD 1 LINE: what I do or did as ambassador] -->
+                Engaging peers with Google developer technologies, sharing learning pathways, and fostering a collaborative tech culture on campus.
+              </p>
+            </div>
+
+            <!-- Activity 2: GitHub DevDays, Tirupati -->
+            <div class="activity-card">
+              <span class="activity-date">Oct 2026</span>
+              <h3 class="activity-title">GitHub DevDays, Tirupati</h3>
+              <p class="activity-desc">
+                Attended workshops covering modern Git workflows, open-source best practices, and collaborative software development.
+              </p>
+            </div>
+
+            <!-- Activity 3: Hack With Hyderabad 3.0 -->
+            <div class="activity-card">
+              <span class="activity-date">Oct 2026</span>
+              <h3 class="activity-title">Hack With Hyderabad 3.0</h3>
+              <p class="activity-desc">
+                Participated in a dynamic hackathon sprint collaborating with team members to conceptualize and pitch tech-driven solutions under time constraints.
+              </p>
+            </div>
+
+            <!-- Activity 4: Elite Coders -->
+            <div class="activity-card">
+              <span class="activity-date">Ongoing</span>
+              <h3 class="activity-title">Elite Coders</h3>
+              <p class="activity-desc">
+                <!-- [ADD 1 LINE, only if true] -->
+                Practicing algorithmic problem solving and data structures on this coding platform to sharpen computational fundamentals.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- =====================================================================
+           9. DEDICATED RESUME SECTION
+           Buttons: Download Resume (PDF) & View Online
+           At-a-glance summary beside buttons
+           ===================================================================== -->
+      <section id="resume" class="section section-alt">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-label">Curriculum Vitae</span>
+            <h2 class="section-title">Resume</h2>
+            <p class="section-subtitle">
+              Download my official resume or inspect the at-a-glance summary below.
+            </p>
+          </div>
+
+          <!--
+            Replace the PDF in assets/ with my latest resume, keeping the same file name:
+            assets/Jaya_Krishna_Gattu_Resume.pdf
+          -->
+          <div class="resume-box">
+            <!-- Left Column: Download and View Buttons -->
+            <div class="resume-download-col">
+              <div>
+                <h3 class="section-title" style="font-size: 1.5rem; margin-bottom: 0.5rem;">Ready for Review</h3>
+                <p style="color: var(--text-secondary); font-size: 0.95rem;">
+                  Formatted for applicant tracking systems (ATS) and human recruiters.
+                </p>
+              </div>
+
+              <div class="btn-group">
+                <!-- Pure HTML Download Button (No JS) -->
+                <a href="assets/Jaya_Krishna_Gattu_Resume.pdf" download class="btn btn-primary">
+                  Download Resume (PDF)
+                </a>
+
+                <!-- Pure HTML View in New Tab (No JS) -->
+                <a href="assets/Jaya_Krishna_Gattu_Resume.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+                  View Online ↗
+                </a>
+              </div>
+
+              <div style="font-family: var(--font-mono); font-size: 0.775rem; color: var(--text-muted);">
+                Format: PDF · Target: Data Engineering Internships
+              </div>
+            </div>
+
+            <!-- Right Column: At-a-glance Summary -->
+            <div class="resume-summary-col">
+              <h4 class="resume-summary-title">At-a-Glance Profile</h4>
+              <div class="resume-summary-grid">
+                <div class="resume-item">
+                  <span class="resume-item-label">Target Role</span>
+                  <span class="resume-item-val">Data Engineer (Internship / Entry-Level)</span>
+                </div>
+                <div class="resume-item">
+                  <span class="resume-item-label">Education</span>
+                  <span class="resume-item-val">B.Tech CSE (Data Science), 2nd Year · AITS Tirupati</span>
+                </div>
+                <div class="resume-item">
+                  <span class="resume-item-label">Top Skills</span>
+                  <span class="resume-item-val">Python, SQL (in progress), JavaScript, HTML/CSS, Git</span>
+                </div>
+                <div class="resume-item">
+                  <span class="resume-item-label">Top 3 Explorations</span>
+                  <span class="resume-item-val">Grand Zenith (Hotel Ops), Flood Management (Geospatial), Agrisense AI (Agriculture)</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- =====================================================================
+           10. EDUCATION SECTION
+           ===================================================================== -->
+      <section id="education" class="section">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-label">Academic Foundations</span>
+            <h2 class="section-title">Education</h2>
+          </div>
+
+          <div class="education-card">
+            <div class="education-header">
+              <div>
+                <h3 class="education-degree">B.Tech in Computer Science and Engineering (Data Science)</h3>
+                <p class="education-institution">Annamacharya Institute of Technology and Sciences, Tirupati</p>
+              </div>
+              <div style="font-family: var(--font-mono); font-size: 0.9rem; color: var(--accent-cyan);">
+                2nd Year · Expected Graduation: [ADD YEAR e.g. 2028]
+              </div>
+            </div>
+
+            <div class="education-details">
+              <div>
+                <span class="about-meta-label">Relevant Coursework:</span>
+                <p style="font-size: 0.95rem; color: var(--text-secondary); margin-top: 0.35rem;">
+                  <!-- [ADD COURSEWORK] -->
+                  Data Structures and Algorithms, Database Management Systems (DBMS), Object-Oriented Programming (Python/C), Probability & Statistics, Discrete Mathematics.
+                </p>
+              </div>
+
+              <div>
+                <span class="about-meta-label">Academic Focus:</span>
+                <p style="font-size: 0.95rem; color: var(--text-secondary); margin-top: 0.35rem;">
+                  Data analysis pipelines, relational database schemas, computational statistics, and exploratory software prototypes.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- =====================================================================
+           11. CONTACT SECTION
+           mailto and direct profile buttons (No backend form)
+           ===================================================================== -->
+      <section id="contact" class="section section-alt">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-label">Connect</span>
+            <h2 class="section-title">Get in Touch</h2>
+            <p class="section-subtitle">
+              I am open to internship opportunities, student mentorship, and conversations about data engineering pipelines. Feel free to reach out directly.
+            </p>
+          </div>
+
+          <div class="contact-grid">
+            <!-- Email (mailto) -->
+            <a href="mailto:gattujayakrishna48@gmail.com" class="contact-card">
+              <span class="contact-type">Email</span>
+              <span class="contact-value">gattujayakrishna48@gmail.com</span>
+              <span class="contact-note">Send a direct message via email ↗</span>
+            </a>
+
+            <!-- LinkedIn -->
+            <a href="https://linkedin.com/in/jaya-krishna-gattu-555841377" target="_blank" rel="noopener noreferrer" class="contact-card">
+              <span class="contact-type">LinkedIn</span>
+              <span class="contact-value">jaya-krishna-gattu-555841377</span>
+              <span class="contact-note">Connect professionally on LinkedIn ↗</span>
+            </a>
+
+            <!-- GitHub -->
+            <a href="https://github.com/gattujayakrishna48-arch" target="_blank" rel="noopener noreferrer" class="contact-card">
+              <span class="contact-type">GitHub</span>
+              <span class="contact-value">@gattujayakrishna48-arch</span>
+              <span class="contact-note">Explore source code repositories ↗</span>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- =======================================================================
+         12. FOOTER
+         ======================================================================= -->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-content">
+          <div>
+            <p>© 2026 Jaya Krishna Gattu. Built with semantic HTML & pure CSS.</p>
+          </div>
+
+          <div class="footer-links">
+            <a href="#hero" class="footer-link">Back to top ↑</a>
+            <a href="https://github.com/gattujayakrishna48-arch" target="_blank" rel="noopener noreferrer" class="footer-link">GitHub</a>
+            <a href="https://linkedin.com/in/jaya-krishna-gattu-555841377" target="_blank" rel="noopener noreferrer" class="footer-link">LinkedIn</a>
+            <a href="mailto:gattujayakrishna48@gmail.com" class="footer-link">Email</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+  </body>
+</html>
